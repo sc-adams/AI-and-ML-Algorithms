@@ -3,10 +3,10 @@
 ## Table of Contents:
 <p align="center">
   <h2 style="font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
-      <a href="https://github.com/sc-adams/AI-ML-Algorithms/#hand-written-digits-recognition-algorithm">Hand Written Digit Recognition</a><br>
-      <a href="https://github.com/sc-adams/AI-ML-Algorithms/#image-recognition-algorithm">Image Recognition</a><br>
-      <a href="https://github.com/sc-adams/AI-ML-Algorithms/#treasure-hunt-game">Treasure Hunt Game</a><br>
-      <a href="https://github.com/sc-adams/AI-ML-Algorithms/#cartpole">Cartpole</a><br>
+      <a href="https://github.com/sc-adams/AI-and-ML-Algorithms/#hand-written-digits-recognition-algorithm">Hand Written Digit Recognition</a><br>
+      <a href="https://github.com/sc-adams/AI-and-ML-Algorithms/#image-recognition-algorithm">Image Recognition</a><br>
+      <a href="https://github.com/sc-adams/AI-and-ML-Algorithms/#treasure-hunt-game">Treasure Hunt Game</a><br>
+      <a href="https://github.com/sc-adams/AI-and-ML-Algorithms/#cartpole">Cartpole</a><br>
   </h2>
 </p>
 
