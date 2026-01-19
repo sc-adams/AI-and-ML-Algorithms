@@ -62,9 +62,8 @@ This code was provided in the text, Deep Learning With Keras (Gulli & Pal, 2017)
 
 In this code, we can observe that with each iteration or epoch, the test accuracy increases as the machine becomes experienced. As expected, we see that as we increase the number of epochs, we observe that the accuracy increases. Though I only tested up to 120 epochs, Gulli and Pal explain that as we test up to a certain point, the accuracy increases, but after we test beyond around 100 epochs, increases in accuracy begin to slow. In the figure on page 28, we see that as we train the data past approximately 100 epochs, there is a point at which the accuracy benefits with additional training begin to diminish (Gulli & Pal, 2017). 
 
-![1](https://github.com/sheraadams/AI-ML-Algorithms/assets/110789514/826dd858-b3ef-4c14-ab10-b562ec62327a)
-
-
+<img width="700" height="214" alt="image" src="https://github.com/user-attachments/assets/26a59561-a5f9-43c2-a45b-f06e12e9d4f1" />
+ 
 Image credit: (Gulli & Pal, 2017)
 
 In these cases, the model may be more likely to overfit the data, making generalizations that are not beneficial for predicting digits correctly. According to *Do Machine Learning Models Memorize or Generalize?* from the website Google PAIR, a “model overfits the training data when it performs well on the training data but poorly on the test data” (n.d.). Similarly, Investopedia defines overfitting as a “modeling error in statistics that occurs when a function is too closely aligned to a limited set of data points” (Twin, 2021) Overfitting may also involve making generalizations based on characteristics that are not appropriate, which is what we see in this model. 
@@ -163,13 +162,13 @@ Analyze how neural networks are used in deep Q-learning.
 
 The cartpole problem can be solved using the Reinforce (also known as the Monte Carlo Policy Gradients) algorithm computing probability distribution of actions for each state such that where actions that have high reward for a given state are chosen (Yoon, 2021). As the model completes the problem, observed rewards and states are stored and their values contribute to probability distributions that inform future behavior where a given distribution refers to the likelihood of success. The pseudocode is provided from the University of Toronto lecture slides, and it is shown below:
 
-![2](https://github.com/sheraadams/AI-ML-Algorithms/assets/110789514/524ac06d-93dc-49e9-94db-1f2ec3b97205)
+<img width="411" height="169" alt="image" src="https://github.com/user-attachments/assets/3ece2f9e-5372-42cc-beca-7ff1e0801e47" />
 
 Image source: (University of Toronto, n.d.)
 
 The A2C can also be used to solve the cartpole problem using information from the “Critic” that estimates the Q-value (or the action value) and information from the “Actor” that estimates the V-value (the state value). We can see the pseudocode for the Q-Actor-critic method provided by Lillian Weng in her post, “Policy Gradient algorithms”.
 
-![3](https://github.com/sheraadams/AI-ML-Algorithms/assets/110789514/76e43fe6-9a3c-4814-808f-2310a958bfa9)
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/195e4fae-191b-4f98-a32b-f9121a0443df" />
 
 Image Credit: (Weng, 2018).
 
